@@ -1,0 +1,33 @@
+body{
+    background-image: url(https://img.ibxk.com.br/2019/05/17/a-17202525498312.jpg);
+    color: rgb(201, 197, 197);
+}
+.mainBox{
+    width: 30vw;
+    height: 105vh;
+    margin-top: 25px;
+    position: relative;
+    z-index: 0;
+    background-color: rgb(32, 29, 29);
+    border-radius: 2px;
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+img{
+    height: 15vh;    
+    width: 20vw;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+}
+@media(max-width:1000px){
+    .mainBox{
+        width: 300px;
+        
+    }
+}
